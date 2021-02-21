@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/fb" android:icon="@drawable/search" app:showAsAction="always" android:title="fb" android:menuCategory="secondary"/>
+    <item android:id="@+id/search_bar" android:icon="@drawable/search" app:showAsAction="ifRoom" android:title="fb"/>
+    <item android:icon="@drawable/search" app:showAsAction="never" android:title="search"/>
+    <item android:icon="@drawable/search" app:showAsAction="never" android:title="fb"/>
+
+</menu>

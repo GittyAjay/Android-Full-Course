@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidfullcourse">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidFullCourse">
+        <activity android:name=".ScreenOrientation.detecting_screen_rotation"  android:configChanges="orientation|screenSize"></activity>
+        <activity android:name=".Menu.menuExample" />
+        <activity android:name=".Lifecycle.android_lifecycle" />
+        <activity android:name=".Layout.sibling_relative_layout" />
+        <activity android:name=".Fragment.communication.fragment_communication" />
+        <activity android:name=".Fragment.dynamic.dynamic_fragment_main" />
+        <activity android:name=".Fragment.list.list_fragment_main" />
+        <activity
+            android:name=".Fragment.singleFrame.single_frame_fragment"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".BasicViews.basic_views" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
